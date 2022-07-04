@@ -1,0 +1,58 @@
+@import url(./reset.less);
+@import url(./component.less);
+.w100 {
+    width: 100%;
+}
+.h100 {
+    height: 100%;
+}
+.click {
+    cursor: pointer;
+    &:hover {
+        color: var(--click-hover-color);
+    }
+}
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text {
+    &.center {
+        text-align: center;
+    }
+}
+.flex {
+    .flex-basic {
+        display: flex;
+        &.center {
+            align-items: center;
+        }
+        &.wrap {
+            flex-wrap: wrap;
+        }
+        &.nowrap {
+            flex-wrap: nowrap;
+        }
+        &.column {
+            flex-direction: column;
+        }
+        &.row-reverse {
+            flex-direction: row-reverse;
+        }
+    }
+    .flex-basic();
+    // 布局
+    &-around {
+        .flex-basic();
+        justify-content: space-around;
+    }
+    &-center {
+        .flex-basic();
+        justify-content: center;
+    }
+    &-between {
+        .flex-basic();
+        justify-content: space-between;
+    }
+}

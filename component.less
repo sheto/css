@@ -1,0 +1,25 @@
+.question {
+	margin-right: 4px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	color: var(--primary-text-color);
+	border: 1px solid var(--primary-text-color);
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	&.error {
+		color: var(--error-color);
+		border-color: var(--error-color);
+	}
+}
+
+.menu {
+	width: auto;
+	min-width: 6rem;
+	.item {
+		font-size: 1.2rem;
+		cursor: pointer;
+	}
+}

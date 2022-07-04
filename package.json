@@ -1,0 +1,15 @@
+{
+    "name": "uw.css",
+    "version": "1.1.0",
+    "author": "sheto",
+    "license": "MIT",
+    "main": "index.css",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sheto/uw.css.git"
+    },
+    "bugs": {
+        "url": "https://github.com/sheto/uw.css/issues"
+    },
+    "homepage": "https://github.com/sheto/uw.css#readme"
+}
